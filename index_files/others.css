@@ -1,0 +1,69 @@
+/*Others*/
+
+h1, h2, h3, h4, h5, h6 {
+    color: #064A74 !important;
+}
+
+/*Colors*/
+
+.bg-newspaper {
+    background-color: #f5f6f8 !important;
+}
+.bg-blue {
+    background-color: #064A74 !important;
+}
+
+.border-blue {
+    border-color: #064A74 !important;
+}
+
+.button-relief {
+  background-color: #033b5c;
+  border: 1.3px inset #0e5f91;
+  border-radius: 9px;
+  margin: 6px 4px;
+  padding: 6px;
+}
+
+/*Patterns*/
+
+.texture-triangles {
+    background-image: url(https://squad108.com/wp-content/uploads/2021/12/Texture.png) !important;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+.pattern-dots {
+    background-color: #ffbb00;
+    opacity: 1;
+    background-image: radial-gradient(#ffbb00 0.2px, #0077bc 0.2px);
+    background-size: 4px 4px;
+}
+.pattern-figures {
+    background-color: #ede7f6;
+    background-image: url("https://squad108.com/wp-content/uploads/2021/12/figures.png") !important;
+}
+
+/*Gantry Particle - Comparison Chart*/
+
+.new-section {
+overflow :hidden;
+color: gray;
+text-align: left;
+line-height: 1.6em;
+}
+.new-section::before {
+display: block;
+float: right;
+margin-top: .7em;
+border-top: 2px solid silver;
+width: 78%;
+content: "";
+}
